@@ -8,8 +8,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-  artifacts:
-    files:
-      - package.json
-      - package-lock.json
-      - app.js
+artifacts:
+  files:
+    - package.json
+    - package-lock.json
+    - app.js
