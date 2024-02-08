@@ -9,8 +9,7 @@ phases:
     commands:
       - echo Build completed on `date`
   artifacts:
-  type: zip
-  files:
-    - package.json
-    - package-lock.json
-    - app.js
+    files:
+      - package.json
+      - package-lock.json
+      - app.js
